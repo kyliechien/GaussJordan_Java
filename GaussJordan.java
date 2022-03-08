@@ -78,8 +78,8 @@ public class GaussJordan {
 
     public int findNotZero() {
         int row = pointerOfRow + 1;
-        while(pointerOfRow < numberOfRow && matrix[row][pointerOfColumn] == 0){
-            pointerOfRow++;
+        while(row < numberOfRow && matrix[row][pointerOfColumn] == 0){
+            row++;
         }
         return row;
     }
