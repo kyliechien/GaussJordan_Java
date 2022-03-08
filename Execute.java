@@ -10,7 +10,7 @@ public class Execute {
             gaussJordan.setNumberOfColumn(sc.nextInt());
             System.out.println("please input the number of equations");
             gaussJordan.setNumberOfRow(sc.nextInt());
-            System.out.println("input coefficient, split with space");
+            System.out.println("input augmented matrix, split with space");
             gaussJordan.setMatrix();
             gaussJordan.out();
             gaussJordan.startGaussJordan();
